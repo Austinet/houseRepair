@@ -1,0 +1,404 @@
+:root {
+    --color1: #fff;
+    --color2: #000;
+    --color3: #333;
+    --color4: #efefef;
+    --color5: #104e92;
+    --color6: #e71a23;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+p {
+    line-height: 1.5;
+}
+header,
+.intro-container,
+#contact,
+.quality-container,
+#services,
+.about-us-container {
+    width: 95%;
+    margin: auto;
+}
+
+header {
+    padding: 20px 0;
+    font-size: 1.8rem;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    color: var(--color3);
+}
+
+#intro {
+    background-image: url("../images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--color1);
+    padding: 200px 0 100px;
+}
+#intro h1{
+    font-size: 3.5rem;
+    font-weight: 200;
+    line-height: 0.5;
+}
+#intro h2 {
+    font-size: 7rem;
+    font-weight: 800;
+    border-bottom: 10px solid var(--color1);
+    width: 730px;
+}
+#intro ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 720px;
+    padding-top: 1.5rem;
+}
+#intro h3 {
+    margin: 15px 0;
+    font-weight: 200;
+}
+
+.intro-container {
+    margin:140px auto 0px;
+}
+
+#cta {
+    background-color: var(--color4);
+    padding: 130px 0 100px;
+}
+#cta .book-now {
+    width: 690px;
+    margin: auto;
+    text-align: center;
+}
+#cta h2 {
+    color: #555;
+    font-size: 1.4rem;
+    font-weight: normal;
+}
+#cta h3 {
+    font-size: 3.5rem;
+    margin: 15px 0 20px;
+}
+#cta p {
+    font-size: 1.1rem;
+    color: var(--color3);
+}
+ button {
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 1.07rem;
+    margin: 20px 0 10px;
+    padding: 0.7rem 1.3rem;
+ }
+ .red-btn {
+    background-color: var(--color6);
+    color: var(--color1);
+    border: none; 
+    margin-right: 10px;
+
+}
+
+#contact {
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-container-1 ,
+.contact-container-2 {
+    width: 48%;
+}
+#contact p {
+    width: 80%;
+    margin: 50px auto;
+    color: var(--color3);
+}
+#contact img {
+    width: 100%;
+}
+#contact h2 {
+    font-size: 2rem;
+}
+#contact h3 {
+    font-size: 1.8rem;
+    color: var(--color6);
+    margin: 20px 0 50px;
+}
+#quality {
+    background-color: var(--color4);
+}
+.quality-container {
+    display: flex;
+    justify-content: center;
+}
+.quality-image-container{
+    width: 45%;
+}
+.quality-text-container {
+    margin-top: 150px;
+    width: 40%;
+}
+
+#quality img{
+    height: 480px;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+#quality h2 {
+    font-size: 3rem;
+    color: var(--color5);
+    border-bottom: 10px solid var(--color6);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+#services {
+    padding: 50px 0 80px;
+}
+#services h2 {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+}
+.services-container {
+    display: flex;
+    justify-content: space-between;
+}
+#services img {
+    background-color: var(--color6);
+    width: 100px;
+    border-radius: 100%;
+    padding: 15px;
+}
+.services-item {
+    width: 30%;
+}
+.services-item h3 {
+    font-size: 1.3rem;
+    margin: 10px 0;
+}
+.services-item p {
+    font-size: 1.1rem;
+    color: var(--color3);
+    font-style: italic;
+}
+#about-us {
+    background-color: var(--color5);
+    padding: 100px 0;
+    color: var(--color1);
+}
+.about-us-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about-us-container h2 {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.about-us-text {
+    align-self: center;
+    width: 38%;
+}
+.about-us-container h3 {
+    font-size: 4.6rem;
+    display: flex;
+    flex-direction: column;
+}
+.about-us-container h3 span {
+    font-weight: 100;
+    margin-right: 15px;
+}
+.about-us-images-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 45%;
+}
+
+.about-image {
+    margin: 10px;
+}
+.about-image img {
+    width: 100%;
+    height: 100%;
+}
+
+#todo {
+    width: 55%;
+    margin: auto;
+    padding: 100px 0;
+    text-align: center;
+}
+#todo h2 {
+    font-size: 2.1rem;
+}
+#todo p {
+    font-size: 1.4rem;
+    font-weight: 100;
+    width: 82%;
+    margin: 25px auto 15px;
+}
+.white-btn {
+    background: transparent;
+    padding:  0.65rem 1.7rem;
+    border: 1px solid var(--color2);
+}
+footer {
+    background-color:var(--color3);
+    padding: 50px 0 30px;
+    color: var(--color1);
+}
+.footer-container {
+    width: 450px;
+    text-align: center;
+    margin: auto;
+}
+.footer-container p:first-of-type {
+    margin-bottom: 70px;
+}
+.footer-container a {
+    color:  rgb(104, 157, 201);
+}
+
+
+@media (max-width:850px) {
+    header, .intro-container {
+        width: 90%;
+    }
+    #intro {
+        background-position-x: -150px;
+    }
+    #intro h1{
+        font-size: 3rem;
+    }
+    #intro h2 {
+        font-size: 5rem;
+        width: 600px;
+    }
+    #intro ul {
+        width: 580px;
+    }
+    .about-us-container{
+        flex-direction: column;
+    }
+    .about-us-container h3 {
+        flex-direction: row;
+        font-size: 3rem;
+    }
+    .about-us-text{
+        width: 85%;
+        margin: 25px auto;
+    }
+    .about-us-images-container {
+        width: 95%;
+        margin: auto;
+    }
+}
+
+@media(max-width:700px){
+    #intro ul {
+        display: none;
+    }
+    #intro h2 {
+        width: fit-content;
+    }
+    #cta h3 {
+        font-size: 2.5rem;
+    }
+    #contact {
+        flex-direction: column;
+    }
+    #cta .book-now,
+    .contact-container-1 ,
+    .contact-container-2,
+    .quality-image-container,
+    .quality-text-container   {
+       width: 95%;
+    }
+    #contact  h2, #contact h3, #contact p {
+        width: 90%;
+        margin: 0 auto 20px;
+    }
+    .quality-container {
+        flex-direction: column;
+    }
+    .quality-text-container {
+        margin-top: 50px;
+    }
+    .services-container {
+        flex-direction: column;
+    }
+    .services-item {
+        width: 80%;
+        margin-bottom: 25px;
+    }
+    .about-us-images-container {
+        grid-template-columns: auto;
+    }
+    .about-image {
+        margin-top: 25px;
+    }
+    #todo {
+        width: 90%;
+    }
+}
+
+@media(max-width:500px){
+    html {
+        font-size: 14px;
+    }
+    #intro {
+        background-position-x: -300px;
+    }
+    header,
+    .intro-container,
+    .footer-container {
+        width: 95%;
+    }
+    #intro h1{
+        font-size: 2.5rem;
+    }
+    #intro h2 {
+        font-size: 4rem;
+    }
+    #contact h2 {
+        font-size: 1.8rem;
+    }
+    #contact h3 {
+        font-size: 1.6rem;
+    }
+    .about-us-container h3 {
+        flex-direction: column;
+    }
+    .footer-container {
+        width: 95%;
+    }
+}
+
+@media(max-width:330px){
+    #intro h1 {
+        font-size: 2rem;
+    }
+    #intro h2 {
+        font-size: 3.2rem;
+    }
+    #intro {
+        background-position-x: -350px;
+    }
+    .red-btn {
+        margin-right: 0;
+    }
+}
